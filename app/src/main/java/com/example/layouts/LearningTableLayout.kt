@@ -22,7 +22,7 @@ class LearningTableLayout : AppCompatActivity() {
     }
 
     private fun statusBar() {
-        val window = this.window
+        val window = window
         window.statusBarColor = ContextCompat.getColor(this,R.color.orange)
     }
 

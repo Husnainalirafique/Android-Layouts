@@ -18,7 +18,8 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
         binding.buttonToFrameLayout.setOnClickListener{
-
+            val intent = Intent(this,LearningFrameLayout::class.java)
+            startActivity(intent)
         }
     }
 }
