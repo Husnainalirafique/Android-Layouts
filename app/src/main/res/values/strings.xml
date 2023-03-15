@@ -2,4 +2,5 @@
     <string name="app_name">Layouts</string>
     <string name="table_layout_bt">Table Layout</string>
     <string name="frame_layout_bt">Frame layout</string>
+    <string name="constraint_layout_bt">Constraint layout</string>
 </resources>

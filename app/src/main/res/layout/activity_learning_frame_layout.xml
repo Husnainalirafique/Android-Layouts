@@ -5,15 +5,32 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".LearningFrameLayout">
-
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:src="@drawable/flight"
+        />
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp"
+        android:gravity="center_horizontal"
+        android:text="Hello World!"
+        android:textColor="@color/white"
+        android:textSize="40sp" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/appCompatButton"
         android:layout_width="175dp"
         android:layout_height="67dp"
+        android:layout_marginTop="100dp"
         android:background="@drawable/bt_background"
-        android:text="button"
+        android:text="Go book"
         android:textColor="@color/black"
+        android:layout_gravity="center_horizontal"
         android:textSize="30sp">
     </androidx.appcompat.widget.AppCompatButton>
 
